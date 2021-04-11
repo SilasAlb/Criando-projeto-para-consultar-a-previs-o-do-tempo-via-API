@@ -1,0 +1,33 @@
+< Projeto  xmlns = " http://maven.apache.org/POM/4.0.0 "  xmlns : xsi = " http://www.w3.org/2001/XMLSchema-instance "  xsi : schemaLocation = " http: / /maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd " >
+  < modelVersion > 4.0.0 </ modelVersion >
+  < groupId > com.previsao </ groupId >
+  < artifactId > PrevisaoTempo </ artifactId >
+  < versão > 0.0.1 </ versão >
+  < embalagem > guerra </ embalagem >
+  < descrição > Previsao Tempo </ descrição >
+  < nome > PrevisaoTempo </ nome >
+  < dependências >
+        < dependência >
+            < groupId > javax </ groupId >
+            < artifactId > javaee-web-api </ artifactId >
+            < versão > 7.0 </ versão >
+            < escopo > fornecido </ escopo >
+        </ dependency >
+        
+		< dependência >
+		    < groupId > org.apache.cxf </ groupId >
+		    < artifactId > cxf-api </ artifactId >
+		    < versão > 2.7.11 </ versão >
+		    < escopo > fornecido </ escopo >
+		</ dependency >        
+
+        < dependência >
+            < groupId > javax </ groupId >
+            < artifactId > javaee-api </ artifactId >
+            < versão > 7.0 </ versão >
+        </ dependency >
+    </ dependencies >
+    < construir >
+		< finalName > ListaTelefonica </ finalName >    
+    </ build >
+</ projeto >
